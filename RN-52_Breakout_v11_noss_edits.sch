@@ -6269,7 +6269,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <instance part="JP1" gate="G$1" x="35.56" y="78.74" rot="MR180"/>
 <instance part="JP3" gate="G$1" x="215.9" y="101.6" rot="R180"/>
 <instance part="JP4" gate="G$1" x="215.9" y="76.2" rot="R180"/>
-<instance part="FTDI" gate="G$1" x="114.3" y="40.64"/>
+<instance part="FTDI" gate="G$1" x="116.84" y="40.64"/>
 <instance part="GND3" gate="1" x="134.62" y="45.72"/>
 <instance part="FTDIVCC_SEL" gate="A" x="142.24" y="45.72"/>
 <instance part="SUPPLY3" gate="G$1" x="154.94" y="43.18"/>
@@ -6344,7 +6344,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <segment>
 <pinref part="FTDI" gate="G$1" pin="GND"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="134.62" y1="48.26" x2="119.38" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND" gate="G$1" pin="1"/>
@@ -6828,8 +6828,11 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="JP1" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<label x="124.46" y="45.72" size="1.27" layer="95" xref="yes"/>
-<wire x1="124.46" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
+<label x="129.54" y="45.72" size="1.27" layer="95" xref="yes"/>
+<wire x1="129.54" y1="45.72" x2="121.92" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="FTDI" gate="G$1" pin="CTS"/>
+<wire x1="121.92" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
+<junction x="121.92" y="45.72"/>
 </segment>
 </net>
 <net name="UART_CTS" class="0">
@@ -6862,11 +6865,6 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <wire x1="45.72" y1="86.36" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
 <label x="48.26" y="86.36" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP1" gate="G$1" pin="5"/>
-</segment>
-<segment>
-<wire x1="119.38" y1="38.1" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
-<label x="121.92" y="38.1" size="1.27" layer="95" xref="yes"/>
-<pinref part="FTDI" gate="G$1" pin="RXI"/>
 </segment>
 </net>
 <net name="UART_RX" class="0">
@@ -6904,7 +6902,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <segment>
 <pinref part="FTDI" gate="G$1" pin="VCC"/>
 <pinref part="FTDIVCC_SEL" gate="A" pin="1"/>
-<wire x1="142.24" y1="43.18" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FTDI_DTR" class="0">
@@ -6912,7 +6910,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="FTDI" gate="G$1" pin="DTR"/>
 <pinref part="DTR_SEL" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="25.4" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="25.4" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="25.4" x2="121.92" y2="35.56" width="0.1524" layer="91"/>
 <label x="114.3" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -6927,7 +6925,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <segment>
 <pinref part="FTDI" gate="G$1" pin="TXO"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="40.64" x2="121.92" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
